@@ -1,0 +1,31 @@
+.footer{
+    background-color: #6b4835;
+    padding: 50px 100px;
+    text-align: center;
+    color: #fff;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info{
+        margin: 0 20px 0 20px;
+    }
+    &__link{
+        color: #fff;
+    }
+    &__copy{
+        margin: 10px 0 0;
+    }
+    &__social{
+        &-menu{
+            display: flex;
+            padding: 0;
+        }
+        &-img{
+        width: 36px;
+        height: 36px;
+        margin-right: 20px;
+        }
+    }
+}

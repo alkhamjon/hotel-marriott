@@ -1,0 +1,98 @@
+.rooms {
+    background-color: #6b4835;
+    padding         : 50px 0;
+    color           : #fff;
+
+    &__title {
+        color: #fff;
+    }
+
+    &__carousel {
+        &-item {
+            margin  : 0 10px;
+            position: relative;
+        }
+
+        &-img {
+            width        : 100%;
+            height       : 200px;
+            object-fit   : cover;
+            border-radius: 3px;
+            border       : 5px solid #fff;
+        }
+
+        & .slick-dots {
+            display        : flex;
+            justify-content: center;
+            list-style     : none;
+            position       : absolute;
+            bottom         : -40px;
+            left           : 400px;
+        }
+
+        & .slick-dots button {
+            font-size       : 0;
+            border          : none;
+            border-radius   : 5px;
+            margin          : 0 10px;
+            background-color: #fff;
+            width           : 10px;
+            height          : 10px;
+        }
+
+        & .slick-active button {
+            background-color: #79a1ae;
+        }
+
+        &-info {
+            display        : flex;
+            justify-content: space-between;
+        }
+
+        &-text {
+            font-family: Georgia, sans-serif;
+            font-size  : 22px;
+            font-style : italic;
+            margin     : 10px 0;
+        }
+
+        &-btn {
+            text-decoration : none;
+            text-align      : center;
+            font-family     : Georgia, serif;
+            font-size       : 16px;
+            font-style      : italic;
+            line-height     : 1;
+            color           : #fff;
+            background-color: #79a1ae;
+            background-image: linear-gradient(to top, #79a1ae 0, #79a1ae 100%);
+            padding         : 10px 14px;
+            border-radius   : 3px;
+            box-shadow      : inset 0 -2px 0 rgb(0 0 0 / 20%);
+            margin-top      : 10px;
+
+            &:hover {
+                background-color: #80aec4;
+                background-image: linear-gradient(to top, #80aec4 0, #80aec4 100%);
+            }
+        }
+    }
+}
+
+.wrapper-overlay {
+    position  : absolute;
+    bottom    : 50px;
+    width     : 100%;
+    height    : 60px;
+    background: rgba(255, 255, 255, .7);
+    padding   : 20px;
+    text-align: center;
+    color     : #6b4835;
+}
+
+.title-overlay {
+    margin     : 0;
+    font-family: Georgia, sans-serif;
+    font-style : italic;
+    font-weight: 400;
+}

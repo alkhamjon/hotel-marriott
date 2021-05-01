@@ -1,0 +1,48 @@
+// font-family: Georgia, sans-serif;
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    color: #424242
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    color:#79A1AE;
+}
+ul{
+    list-style: none;
+}
+form{
+    display: flex;
+}
+.title{
+    font-size: 30px;
+    font-family: Georgia, sans-serif;
+    color: #6B4835;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.about{
+    padding: 50px 0;
+    &__text{
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+@import "_header.scss";
+@import "_home.scss";
+@import "_rooms.scss";
+@import "_restaurants.scss";
+@import "_services.scss";
+@import "_reviews.scss";
+@import "_footer.scss";

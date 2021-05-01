@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriott</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="header__top-nav">
+                    <div class="location">
+                        <a href="#" class="location__icon">
+                            <img class="location__icon-img" src="img/icons/location.svg" alt="">
+                        </a>
+                        <a class="location__title" href="#">адресс:
+                            <span class="location__title-info">г.Краснодар,
+                                ул.Красная, 120</span>
+                        </a>
+                    </div>
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__link-img" src="img/main-logo.png" alt="Логотип Марриотт">
+                        </a>
+                    </div>
+                    <div class="phone">
+                        <a class="phone__icon" href="#">
+                            <img class="phone__icon-img" src="img/icons/phone-call.svg" alt="">
+                        </a>
+                        <a href="tel:+78619985555" class="phone__number"><span class="phone__title">телефон:</span>7 861
+                            998 55
+                            55</a>
+                        <div class="language">
+                            <a class="language__ru" href="#">
+                                <img class="language__ru-icon" src="img/icons/russian-flag.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <nav class="header__nav-bottom">
+            <div class="container">
+                <div class="header__nav-inner">
+                    <h2 class="header__nav-title">БРОНИРОВАНИЕ НОМЕРОВ</h2>
+                    <div class="form-reservation">
+                        <form action="">
+                            <div>
+                                <label class="form-reservation__title" for="">Заезд</label>
+                                <input class="form-reservation__date" type="date">
+                            </div>
+                            <div>
+                                <label class="form-reservation__title" for="">Выезд</label>
+                                <input class="form-reservation__date" type="date">
+                            </div>
+                            <div>
+                                <label class="form-reservation__title" for="">Гостей</label>
+                                <select name="" class="form-reservation__select">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </form>
+                        <a class="header__nav-btn" href="#">найти</a>
+                    </div>
+                </div>
+        </nav>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home__carousel">
+            <div class="home__carousel-item">
+                <img class="home__carousel-img" src="img/home-slider-img1.jpg" alt="">
+            </div>
+            <div class="home__carousel-item">
+                <img class="home__carousel-img" src="img/home-slider-img2.jpg" alt="">
+            </div>
+            <div class="home__carousel-item">
+                <img class="home__carousel-img" src="img/home-slider-img3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class="title">ОТЕЛЬ «МАРРИОТТ», Г. КРАСНОДАР</h2>
+            <p class="about__text">Расположенный в центре Краснодара на улице Красной , в шаговой доступности от
+                административных учреждений, торговых центров и основных достопримечательностей города, наш новый
+                высококлассный отель «Краснодар Марриотт» предлагает удивительные
+                возможности для путешествий и истинное гостеприимство, уникальный продукт с полноценным спектром услуг в
+                соответствии с философией Travel Brilliantly и продуманным сервисом для создания незабываемых
+                впечатлений.</p>
+        </div>
+    </section>
+    <section class="rooms">
+        <div class="container">
+            <h2 class="title rooms__title">НОМЕРА И ЦЕНЫ</h2>
+            <div class="rooms__carousel">
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-1.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Standart A</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 6125 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-2.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Standart B</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 6425 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-3.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Superior</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 7025 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-4.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">De Luxe</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 8475 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-5.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Suite</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 8450 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-6.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Studio Suite</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 9200 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-7.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Familiy Suite</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 11700 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+                <div class="rooms__carousel-item">
+                    <a class="rooms__carousel-link" href="#"></a>
+                    <img class="rooms__carousel-img" src="img/rooms/room-8.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay">
+                        <h3 class="title-overlay">Duplex Suite</h3>
+                    </div>
+                    <div class="rooms__carousel-info">
+                        <p class="rooms__carousel-text" href="#">от 13850 ₽</p>
+                        <a class="rooms__carousel-btn" href="#">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="title">РЕСТОРАНЫ И БАРЫ</h2>
+            <div class="restaurants__carousel">
+                <div class="restaurants__carousel-item">
+                    <a class="restaurants__carousel-link" href="#"></a>
+                    <img class="restaurants__carousel-img" src="img/restaurants/restaurants-1.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay restaurants-overlay">
+                        <h3 class="title-overlay restaurants-title">Ресторан «Кипарис»</h3>
+                    </div>
+                    <p class="restaurants__carousel-text" href="#">Большой банкетный зал, в котором проходят завтраки по
+                        системе "шведский стол", а также праздничные банкеты и фуршеты.</p>
+                </div>
+                <div class="restaurants__carousel-item">
+                    <a class="restaurants__carousel-link" href="#"></a>
+                    <img class="restaurants__carousel-img" src="img/restaurants/restaurants-2.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay restaurants-overlay">
+                        <h3 class="title-overlay restaurants-title">Банкетный зал</h3>
+                    </div>
+                    <p class="restaurants__carousel-text" href="#">Deep Coffee – место, в котором Вы можете насладиться
+                        любимыми напитками и авторскими десертами, а также послушать приятную и легкую музыку в стиле
+                        deep house.</p>
+                </div>
+                <div class="restaurants__carousel-item">
+                    <a class="restaurants__carousel-link" href="#"></a>
+                    <img class="restaurants__carousel-img" src="img/restaurants/restaurants-3.jpg" alt="">
+                    </a>
+                    <div class="wrapper-overlay restaurants-overlay">
+                        <h3 class="title-overlay restaurants-title">Deep Coffee</h3>
+                    </div>
+                    <p class="restaurants__carousel-text" href="#"> Безлимитный "шведский стол" и современный стильный
+                        интерьер. Для проживающих гостей - скидка 10% на основное меню.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="title">УСЛУГИ</h2>
+            <ul class="services__menu">
+                <div class="services__menu-wrap">
+                    <li class="services__menu-item">
+                        <img class="services__menu-img" src="img/icons/spa.svg" alt="Спа">
+                        <a class="services__menu-text" href="#">Спа с полным комплексом услуг</a>
+                    </li>
+                    <li class="services__menu-item">
+                        <img class="services__menu-img" src="img/icons/fitness.svg" alt="Фитнес">
+                        <a class="services__menu-text" href="#">Фитнес-центр</a>
+                    </li>
+                </div>
+                <div class="services__menu-wrap">
+                    <li class="services__menu-item">
+                        <img class="services__menu-img" src="img/icons/pool.svg" alt="Бассейн">
+                        <a class="services__menu-text" href="#">Бассейн</a>
+                    </li>
+                    <li class="services__menu-item">
+                        <img class="services__menu-img" src="img/icons/kitchen.svg" alt="Кухня">
+                        <a class="services__menu-text" href="#">Кухня/Мини-кухня</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="title">ОТЗЫВЫ</h2>
+            <div class="reviews__content">
+                <h4 class="reviews__content-title"><span class="title-icon">
+                        <img class="title-icon__img" src="img/icons/fan.svg" alt="">
+                    </span> TL: Reputation</h4>
+                <div class="reviews__content-grade">
+                    <div class="content-grade__item">
+                        <h3 class="grade__title">4.3 <span class="grade__subtitle">/5.0</span></h3>
+                        <div>
+                            <ul class="grade__stars">
+                                <li class="grade__stars-item">
+                                    <img class="grade__stars-img" src="img/icons/star.svg" alt="">
+                                </li>
+                                <li class="grade__stars-item">
+                                    <img class="grade__stars-img" src="img/icons/star.svg" alt="">
+                                </li>
+                                <li class="grade__stars-item">
+                                    <img class="grade__stars-img" src="img/icons/star.svg" alt="">
+                                </li>
+                                <li class="grade__stars-item">
+                                    <img class="grade__stars-img" src="img/icons/star.svg" alt="">
+                                </li>
+                                <li class="grade__stars-item">
+                                    <img class="grade__stars-img" src="img/icons/star.svg" alt="">
+                                </li>
+                            </ul>
+                            <p class="grade__stars-title">Отлично</p>
+                        </div>
+                    </div>
+                    <p class="reviews__content-text">по результатам <b>3432</b> отзывов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="logo footer__logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__link-img" src="img/footer-logo.png" alt="Логотип Марриотт">
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <a class="footer__link" href="#">© Отель «Марриотт»</a>
+                    <p class="footer__copy">1996 - 2021 © Корпорация Marriott International. Все права защищены.</p>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__social-menu">
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#">
+                                <img class="footer__social-img" src="img/icons/vk.png" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#">
+                                <img class="footer__social-img" src="img/icons/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#">
+                                <img class="footer__social-img" src="img/icons/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a class="footer__social-link" href="#">
+                                <img class="footer__social-img" src="img/icons/youtube.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

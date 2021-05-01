@@ -1,0 +1,26 @@
+.services{
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    &__menu{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        &-wrap{
+            display: flex;
+        }
+        &-item{
+            display: flex;
+            align-items: center;
+        }
+        &-img{
+            width: 46px;
+            height: 46px;
+            margin: 0 10px;
+        }
+        &-text{
+            margin-right: 30px;
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+.home{
+    &__carousel-img{
+        height: 73vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__carousel .slick-dots{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+    &__carousel .slick-dots button{
+        font-size: 0;
+        border: none;
+        border-radius: 5px;
+        margin: 0 10px;
+        background-color: #fff;
+        width: 10px;
+        height: 10px;
+    }
+    &__carousel .slick-active button{
+        background-color: rgba(107,72,53,.8)
+    }
+}

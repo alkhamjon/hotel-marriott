@@ -1,0 +1,144 @@
+.header {
+    &__top {
+        padding: 20px 100px;
+        width  : 100%;
+
+        &-nav {
+            display        : flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__nav-bottom {
+        position        : sticky;
+        top             : 0;
+        box-shadow      : inset 0 5px #6b4835;
+        width           : 100%;
+        background-color: rgba(107, 72, 53, .7);
+        color           : #fff;
+    }
+
+    &__nav-title {
+        font-size   : 18px;
+        width       : 150px;
+        padding-left: 50px;
+    }
+
+    &__nav-inner {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+    }
+
+    &__nav-btn {
+        width           : 100px;
+        height          : 34px;
+        margin          : 25px 50px 0 0;
+        background-color: #79a1ae;
+        background-image: linear-gradient(to top, #79a1ae 0, #79a1ae 100%);
+        border          : 1px solid transparent;
+        border-radius   : 5px;
+        text-transform  : uppercase;
+        color           : #fff;
+        font-size       : 16px;
+        font-weight     : bold;
+        text-decoration : none;
+        padding         : 5px 0;
+        text-align      : center;
+
+        &:hover {
+            background-color: #80aec4;
+            background-image: linear-gradient(to top, #80aec4 0, #80aec4 100%);
+        }
+    }
+}
+
+.location {
+    display    : flex;
+    align-items: center;
+    &__icon{
+        width: 23px;
+        margin-right: 2px;
+    }
+
+    &__title {
+        text-transform : uppercase;
+        text-decoration: none;
+
+        &-info {
+            display       : block;
+            color         : #424242;
+            text-align    : left;
+            text-transform: initial;
+            font-size     : 12px;
+        }
+    }
+}
+
+.logo {
+    &__link-img {
+        width: 120px;
+    }
+}
+
+.phone {
+    display    : flex;
+    align-items: center;
+
+    &__icon-img {
+        width       : 23px;
+        height      : 23px;
+        margin-right: 20px;
+    }
+
+    &__number {
+        color          : #424242;
+        font-size      : 18px;
+        font-weight    : bold;
+        text-decoration: none;
+    }
+
+    &__title {
+        display       : block;
+        text-transform: uppercase;
+        color         : #79a1ae;
+        font-size     : 14px;
+        font-weight   : 300;
+    }
+}
+
+.language {
+    &__ru-icon {
+        width : 24px;
+        height: 18px;
+        margin: 20px 0 0 20px;
+        border: 1px solid #79a1ae;
+    }
+}
+
+.form-reservation {
+    display: flex;
+
+    &__title {
+        display      : block;
+        margin-bottom: 5px;
+    }
+
+    &__date {
+        width        : 150px;
+        height       : 34px;
+        padding      : 0 0 0 10px;
+        margin-right : 50px;
+        border-radius: 5px;
+        border       : none;
+    }
+
+    &__select {
+        width        : 60px;
+        height       : 34px;
+        padding      : 0 0 0 10px;
+        border       : none;
+        border-radius: 5px;
+        margin-right : 50px;
+    }
+}
