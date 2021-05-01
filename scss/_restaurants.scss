@@ -29,16 +29,16 @@
 
         &-text {
             font-size  : 14px;
-            line-height: 1, 4;
+            line-height: 1.4;
+            margin: 5px 0;
         }
 
         & .slick-dots {
             display        : flex;
             justify-content: center;
             list-style     : none;
-            position       : absolute;
-            bottom         : -30px;
-            left           : 400px;
+            margin: 0 0 10px;
+            padding: 0;
         }
 
         & .slick-dots button {
@@ -55,31 +55,4 @@
             background-color: #6b4835;
         }
     }
-}
-
-.slick-prev {
-    background-image: url(../img/icons/left-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border          : none;
-    font-size: 0;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: -60px;
-    top: 85px;
-    cursor: pointer;
-}
-.slick-next{
-    background-image: url(../img/icons/right-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border          : none;
-    font-size: 0;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: -50px;
-    top: 85px;
-    cursor: pointer;
 }

@@ -63,7 +63,7 @@
                                 <input class="form-reservation__date" type="date">
                             </div>
                             <div>
-                                <label class="form-reservation__title" for="">Гостей</label>
+                                <label class="form-reservation__title select" for="">Гостей</label>
                                 <select name="" class="form-reservation__select">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -79,6 +79,7 @@
                             </div>
                         </form>
                         <a class="header__nav-btn" href="#">найти</a>
+                        <a class="header__btn" href="#">перейти к бронированию</a>
                     </div>
                 </div>
         </nav>
@@ -279,7 +280,12 @@
     <section class="reviews">
         <div class="container">
             <h2 class="title">ОТЗЫВЫ</h2>
-            <div class="reviews__content">
+            <iframe id="tlFrame0.2206702278364161" name="tlFrame0.2206702278364161" frameborder="0" border="0"
+                allowtransparency="yes" width="1" height="1" scrolling="no"
+                style="max-width: none; width: 1px; min-width: 100%; height: 100%;"
+                src="https://ibe.tlintegration.com/reputation-widget/index.default.html?int=true&amp;origin=https%3A%2F%2Fbristol-yalta.ru&amp;conId=7878847421411024&amp;env=prod&amp;providerKey=ed12f56e-4930-4d21-bc24-b63ee12b0da6&amp;language=ru&amp;layout=default&amp;serviceUrl=%2F%2Fibe.tlintegration.com&amp;width=100%25"
+                __idm_frm__="283"></iframe>
+            <!-- <div class="reviews__content">
                 <h4 class="reviews__content-title"><span class="title-icon">
                         <img class="title-icon__img" src="img/icons/fan.svg" alt="">
                     </span> TL: Reputation</h4>
@@ -307,9 +313,11 @@
                             <p class="grade__stars-title">Отлично</p>
                         </div>
                     </div>
-                    <p class="reviews__content-text">по результатам <b>3432</b> отзывов</p>
+                    <div class="reviews__result">
+                        <p class="reviews__content-text">по результатам <b>3432</b> отзывов</p>
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <footer class="footer">

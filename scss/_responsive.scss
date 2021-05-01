@@ -1,0 +1,165 @@
+@media(max-width: 985px){
+    .reviews__content{
+        width: 100%;
+    }
+}
+@media(max-width: 960px){
+    .header{
+        &__nav-btn{
+            margin-right: 0;
+        }
+    }
+    .form-reservation{
+        &__select{
+            margin-right: 20px;
+        }
+        &__date{
+            margin-right: 20px;
+        }
+    }
+    .restaurants{
+        padding: 50px 0 15px;
+    }
+    .restaurants__carousel{
+        width: 100%;
+    }
+    .restaurants__carousel-item{
+        width: 100%;
+    }
+    .services{
+        padding: 50px 0 15px;
+    }
+    .services__menu{
+        flex-direction: column;
+        align-items: center;
+        &-wrap{
+            width: 310px;
+            flex-direction: column;
+        }
+        &-item{
+            margin-bottom: 15px;
+        }
+    }
+    .footer{
+        padding: 50px 0;
+    }
+}
+@media(max-width:900px){
+    .rooms__carousel-img{
+        height: 100%;
+    }
+    .rooms{
+        padding: 50px 0 15px;    
+    }
+}
+@media (max-width: 800px){
+    .location{
+        display: none;
+    }
+    .header__nav-title{
+        padding: 0;
+    }
+}
+@media (max-width: 700px){
+    .header__nav-title{
+        display: none;
+    }
+    .header__nav-bottom{
+        padding: 15px 0;
+    }
+    .header__nav-inner{
+        justify-content: center;
+    }
+    .footer{
+        padding: 50px 0 15px;
+    }
+    .footer__inner{
+        flex-direction: column;
+    }
+    .footer__logo{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px){
+    .header__top{
+        padding: 20px;
+    }
+    .about__text{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+    }
+    .title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about{
+        padding: 20px 0;
+    }
+}
+
+@media(max-width: 540px){
+    .select{
+        display: none;
+    }
+    .form-reservation__select{
+        display: none;
+    }
+    .form-reservation{
+        align-items: center;
+    }
+    .header__nav-btn{
+        margin: 24px 0 0;
+    }
+    .title{
+        text-align: center;
+    }
+
+}
+@media(max-width: 460px){
+    .phone__icon-img{
+        margin: 10px;
+    }
+    .language__ru-icon{
+        margin-left: 10px;
+    }
+    .header__nav-btn{
+        display: none;
+    }
+    .header__btn{
+        display: block;
+        padding: 10px 40px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .form-reservation__title,
+    .form-reservation__date{
+        display: none;
+    }
+    .phone__number{
+        font-size: 12px;
+    }
+    .header__top{
+        padding: 20px 0;
+    }
+}
+@media(max-width: 380px){
+    .home__coarousel .slick-dots{
+        left: 0;
+        right: 0;
+    }
+    .rooms__carousel-text{
+        font-size: 20px;
+    }
+    .rooms__carousel-btn{
+        padding: 10px;
+    }
+    .services__menu-wrap{
+        width: 100%;
+    }
+}
+@media(max-width: 330px){
+    .phone__number {
+        font-size: 10px;
+    }
+}
